@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.target {
+  width: 60px;
+  height: 60px;
+  background-color: #f0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.mem-circle {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  border: 2px dashed #555;
+  padding: 10px;
+  min-height: 80px;
+}
+.mem {
+  width: 40px;
+  height: 40px;
+  background-color: #08f;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  font-size: 12px;
+}
